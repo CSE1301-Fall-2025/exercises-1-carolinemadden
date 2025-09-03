@@ -6,12 +6,14 @@ public class E09NameReader {
 
 	//Exercise 9: Run this program a few times, using different names
 	//Notice how this code works regardless of what name it is given
+
 	public static void main(String[] args) {
-		Scanner scan = new Scanner(System.in);  
+		Scanner scanner = new Scanner(System.in);  
 
 		System.out.println("Please Enter your name: ");
-		String name = scan.nextLine();
+		String name = scanner.nextLine();
 		System.out.println("Hello " + name);
+		scanner.close();
 
 	}
 }
